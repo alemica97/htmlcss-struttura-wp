@@ -10,3 +10,10 @@ header {
     background-color: cornflowerblue;
     margin: 20px auto;
 }
+
+nav {
+    max-width: 1200px;
+    min-height: 400px;
+    background-color: chocolate;
+    margin: auto;
+}
