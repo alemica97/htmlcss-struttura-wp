@@ -24,3 +24,10 @@ main{
     background-color: mediumpurple;
     margin: 20px auto;
 }
+
+footer{
+    max-width: 1200px;
+    min-height: 30px;
+    background-color: yellowgreen;
+    margin: auto;
+}
