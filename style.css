@@ -6,7 +6,7 @@
 
 header {
     max-width: 1200px;
-    min-height: 60px;
+    min-height: 70px;
     background-color: cornflowerblue;
     margin: 20px auto;
 }
@@ -18,16 +18,50 @@ nav {
     margin: auto;
 }
 
-main{
+main { 
     max-width: 1200px;
     min-height: 600px;
     background-color: mediumpurple;
     margin: 20px auto;
 }
 
-footer{
+footer {
     max-width: 1200px;
     min-height: 30px;
     background-color: yellowgreen;
     margin: auto;
+}
+
+section > .over {
+    width: 100%;
+    min-height: 40px;
+    background-color: rgb(188, 168, 228);
+    margin-bottom: 10px;
+}
+
+.col.sidebar {
+    width: 300px;   
+}
+
+.col.content {
+    width: calc(100% - 310px - 310px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.col{
+    float: left;
+    height: 560px;
+    margin-bottom: 10px;
+    background-color: rgb(188, 168, 228);
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col :nth-child(3){
+    margin-left: 0;
 }

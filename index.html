@@ -7,18 +7,28 @@
     <link rel="stylesheet" href="style.css">
     <title>Struttura-WP</title>
 </head>
-<body>
+<body class="debug">
     <header>
-        contenuto in alto
+
     </header>
     <nav>
-        contenuto largo
+
     </nav>
     <main>
-        contenuto azzurro diviso in colonne
+
+        <section>
+            <div class="over"></div>
+        </section>
+
+        <section class="clearfix">
+            <div class="col sidebar"></div>
+            <div class="col content"></div>
+            <div class="col sidebar"></div>
+        </section>
+
     </main>
     <footer>
-        contenuto in basso
+
     </footer>
 </body>
 </html>
