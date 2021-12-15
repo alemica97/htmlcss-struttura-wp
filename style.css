@@ -34,10 +34,9 @@ footer {
     background-color: yellowgreen;
 }
 
-section > .over {
+.col.over {
     width: 100%;
     min-height: 40px;
-    background-color: rgb(188, 168, 228);
 }
 
 .col.sidebar {
@@ -54,7 +53,6 @@ section > .over {
     float: left;
     min-height: 560px;
     margin-bottom: 15px;
-    margin-top: 15px;
     background-color: rgb(188, 168, 228);
 }
 
@@ -62,8 +60,4 @@ section > .over {
     content: "";
     display: block;
     clear: both;
-}
-
-.col :nth-child(3){
-    margin-left: 0;
 }
